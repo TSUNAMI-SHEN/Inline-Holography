@@ -1,0 +1,19 @@
+1.请求库，用来请求目标内容
+常见的请求库：Requests、Selenium(自动化测试工具，使浏览器执行我们想要的动作，比如点击某个按钮、滚动滑轮之类的操作，需要chromeDriver配合使用)、Aiohttp(提供异步Http请求的类库)、
+cchardet字符编码检测库、aiodns加速DNS解析库
+
+同步请求：阻塞式，当发出请求后，程序会一直等待这个请求响应，直到响应以后继续做下一步；异步请求：非阻塞式，当发出一个请求后，程序可以去做其他事情
+
+2.解析库：解析请求回来的内容
+常见的解析库：lxml(支持HTML&XML的解析，支持XPath的解析方式)、Beautiful Soup(HTML&XML的解析库，从HTML文档中提取数据)、pyquery(提供类似jQuery的语法解析HTML文档)
+
+3.数据库
+常用的数据库：SQL(Structured Query Language),关系型数据库SQL、Server、Oracle、MySQL、PostgraSQL；NoSQL(Not Only SQL):泛指非关系型数据库，MongoDB、Redis、CouchDB；NewSQL,各种新的
+可拓展/高性能数据库的简称，Clustrix、GenieDB、TiDB
+
+4.连接库 pymysql
+
+pyspider安装，开源的网络爬虫框架，自带WebUI，可以实时的看到更多的数据，并且它还带有脚本编辑器、任务监控器、项目管理器以及结果处理器，同时支持多种数据库后端、多种消息队列，还支持JavaScripoy
+渲染页面的爬取
+
+XPath即为XML路径语言，用来确定XML文档中某部分位置的语言，可以从XML文档或者HTML文档中快速定义到所需要的位置的路径语言
