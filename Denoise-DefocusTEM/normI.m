@@ -4,7 +4,7 @@ output = './Norm-ML/';
 if ~exist(output, 'dir')
     mkdir(output);
 end
-load('./sumstd-20211211.mat')
+load('./sumstd/sumstd-20211211.mat')
 n = 8;
 for n1=1:n
     load([inputPath num2str(n1) '.mat'])
