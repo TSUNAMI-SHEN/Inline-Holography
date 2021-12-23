@@ -1,10 +1,8 @@
-- 👋 Hi, I’m @TSUNAMI-SHEN
-- 👀 I’m interested in ML
-- 🌱 I’m currently learning Python & Matlab.
-- 💞️ I’m looking to collaborate on ways to reduce noise in TEM images.
-- 📫 How to reach me ...
-
-<!---
-TSUNAMI-SHEN/TSUNAMI-SHEN is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+用于离焦电镜图像降噪
+1.test.py利用训练好的U-Net网络模型对离焦的电镜图像进行降噪
+2.需要修改的参数在Config.py脚本中
+    参数1：data_path_test ： 原始离焦图像保存的文件夹路径
+    参数2：model_path_test : 选择用哪一个训练好的神经网络模型
+    参数3：denoised_dir ：保存降噪后离焦图像的文件路径
+    其余参数在训练时修改，测试时不用管
+3.训练前，需要将矩阵截成512 * 512大小输入，并利用normI.m脚本对矩阵进行normalize
