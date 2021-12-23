@@ -1,3 +1,4 @@
+% 对矩阵进行强度归一化
 inputPath = './ML-Denoised/';
 output = './Norm-ML/';
 if ~exist(output, 'dir')
