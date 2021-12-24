@@ -10,11 +10,11 @@ main.m脚本中调用每个流程封装的函数，下面是调用函数时需�
   
     输入参数
     
-      1.foldername : 原始电镜文件保存的位置
+      1.foldername : 原始电镜文件保存的位置, str类型
       
-      2.filetype : 文件的类型，dm3 or dm4 or txt等（目前的脚本仅针对dm3文件，需要后面完善）
+      2.filetype : 文件的类型，dm3 or dm4 or txt等（目前的脚本仅针对dm3文件，需要后面完善）, str类型
       
-      3.output : 输出文件的文件夹名称
+      3.output : 输出文件的文件夹名称, str类型
       
     输出：系列离焦像的矩阵，mat格式
     
@@ -22,4 +22,6 @@ main.m脚本中调用每个流程封装的函数，下面是调用函数时需�
   
     输入参数
       
-      1.
+      1.foldername : mat格式离焦像保存的文件夹名称, str类型
+      
+      2.output : 输出文件的文件夹名称, str类型
