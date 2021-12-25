@@ -15,6 +15,8 @@
     3.unet_model.py : U-Net模型，测试时test.py会调用该模型，无需修改
     
     4.data_set_builder.py : 用于加载数据，测试时test.py会调用该脚本，无需修改
+    
+    5.normI.m : 用于对数据进行normalization
 
 2.流程
     
@@ -32,9 +34,9 @@
 
         Python = 3.6
         torch = 1.2.0
+        torchvision = 0.4.0
         scipy = 1.5.2
         scikit-image = 0.17.2
-        torchvision = 0.4.0
         numpy = 1.17.0
         cuda = 10.0
         cudnn = 7.4.1
