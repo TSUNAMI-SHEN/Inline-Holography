@@ -16,15 +16,17 @@
     
     4.data_set_builder.py : 用于加载数据，测试时test.py会调用该脚本，无需修改
     
-3.训练前，需要将矩阵截成512 * 512大小输入，并利用normI.m脚本对矩阵进行normalize
+2.注意事项
+    
+    1.训练前，需要将矩阵截成512 * 512大小输入，并利用normI.m脚本对矩阵进行normalize
 
-4.配置环境&安装包版本&GPU信息
+    2.配置环境&安装包版本&GPU信息
 
-    Python = 3.6
-    torch = 1.2.0
-    scipy = 1.5.2
-    scikit-image = 0.17.2
-    torchvision = 0.4.0
-    numpy = 1.17.0
-    cuda = 10.0
-    cudnn = 7.4.1
+        Python = 3.6
+        torch = 1.2.0
+        scipy = 1.5.2
+        scikit-image = 0.17.2
+        torchvision = 0.4.0
+        numpy = 1.17.0
+        cuda = 10.0
+        cudnn = 7.4.1
